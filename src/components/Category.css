@@ -63,45 +63,6 @@
 
 /* Category Cards */
 
-.cat-pages-container {
-    width: 100%;
-    overflow: hidden;
-    /* border: 1px solid blue; */
-}
-
-.pages {
-    display: flex;
-}
-
-.cat-pages {
-    white-space: nowrap;
-    /* border: 1px solid green; */
-    
-}
-
-.cat-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid red;
-    /* width: 100%; */
-    height: 235px;
-    gap: 10px;
-    transition: all 1s;
-
-}
-
-.cat-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    white-space: normal;
-    width: 100%;
-    /* border: 1px solid blue; */
-}
-
 .category-card {
     /* border: 1px solid black; */
     background-color: #F6F0EA;
@@ -119,7 +80,5 @@
     font-weight: 500;
     margin: 15px 12px;
 }
-
-
 
   
