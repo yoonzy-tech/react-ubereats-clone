@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+} 
+
+
+/* Header*/
+
+#sign-in {
+    text-decoration: none;
+    background-color: #EEEEEE;
+    position: relative;
+    padding: 12px 16px;
+    border-radius: 500px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: auto;
+    word-spacing: 0.2px;
+}
+
+#logo {
+    width: 134px;
+    height: 24px;
+    margin-left: 32px;
+}
+
+header {
+    /* border: 3px solid red; */
+    padding: 25px 40px;
+    height: 96px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* Header - Toggle */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    /* border: 2px solid red; */
+}
+
+.switch input {
+    appearance: none;
+    width: 170px;
+    height: 40px;
+    border-radius: 500px;
+    background-color: #EEEEEE;
+    outline: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.switch input::before,
+.switch input::after {
+    z-index: 2;
+    position: absolute;
+    border-radius: 500px;
+    /* border: 1px solid red; */
+    /* top: 56%; /* Center the Text */
+    /* transform: translateY(-50%); Center the Text */
+}
+
+.switch input::before {
+    content: "Delivery";
+    left: 20px;
+    
+}
+
+.switch input::after {
+    content: "Pickup";
+    right: 20px;
+}
+
+.switch label {
+    z-index: 1;
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 85px;
+    border-radius: 500px;
+    /* border: 2px solid red; */
+    background-color: white;
+}
+
+.switch input:not(:checked) + label {
+    left: 5px;
+    right: 85px;
+    background-color: white;
+    transition: left 0.4s, right 0.4s, background-color;
+}
+
+.switch input:checked + label {
+    left: 85px;
+    right: 5px;
+    background-color: white;
+    transition: left 0.4s, right 0.4s, background-color;
+
+}
+
+
+/* Banner*/
+
+.banner {
+    display: grid;
+    grid-template-rows: 3fr;
+    grid-template-columns: 3fr;
+    grid-template-areas: 'overlap';
+}
+
+.banner-background {
+    background-color: #FFC043;
+    border: 2px solid #FFC043; 
+    color: white;
+    text-align: center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    display: flex;
+    justify-content: space-between;
+    grid-area: overlap;
+}
+
+.banner-background img {
+    object-fit: fill;
+    display: inline-block;
+    height: 684px;
+    width: auto;
+}
+
+
+/* Search Bar */
+
+#search-button {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 14px 16px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
+.search-container {
+    text-align: center;
+    grid-area: overlap;
+    align-self: center;
+    justify-self: center; 
+    position: relative;  
+}
+
+.search-container h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    word-spacing: -2px;
+}
+
+.search-input {
+    width: 540px;
+    height: 56px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.search-input input,
+.search-input input:active {
+    all: reset;
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 470px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.search-input + .search-input input:clicked {
+    border-bottom: 2px solid black;
+}
+
+.searhc-input input,
+input::-webkit-input-placeholder {
+    font-size: 16px;
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Breadcrumb */
+.location-breadcrumb {
+    text-align: start;
+    vertical-align: middle;
+    padding: 24px 40px;
+    color: #AFAFAF;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#taipei {
+    color: black;
+}
+
+.breadcrumb-item {
+    display: inline-block;
+
+}
+
+.location-breadcrumb ol li:not(:last-of-type)::after {
+    content: ">";
+    font-weight: bold;
+    font-size: 18px;
+    color: #AFAFAF;
+    margin: 0 10px;
+    /* border: 1px solid red; */
+}
+
+
+/* Description */
+.description {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 40px; 
+}
+
+.description h2 {
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+.description p {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+hr {
+    background-color: #E2E2E2;
+    margin: 30px 40px;
+    height: 1px;
+    border: none;
+}
+

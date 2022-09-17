@@ -1,0 +1,122 @@
+[
+    {
+    "id": 1,
+    "name": "Fast Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/FastFood_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 2,
+    "name": "Breakfast & Brunch",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Breakfast_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 3,
+    "name": "American Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/American_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 4,
+    "name": "Mexican Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Mexican_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 5,
+    "name": "Chinese Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Chinese_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 6,
+    "name": "Japanese Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Japanese_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 7,
+    "name": "Italian Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Italian_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 8,
+    "name": "Healthy Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Healthy_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 9,
+    "name": "Asian Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Asian_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 10,
+    "name": "Indian Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Indian_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 11,
+    "name": "Thai Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Thai_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 12,
+    "name": "Taiwanese Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Taiwanese_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 13,
+    "name": "Alcohol",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Alcohol_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 14,
+    "name": "Halal",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Halal_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 15,
+    "name": "Bakery",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Bakery_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 16,
+    "name": "Comfort Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/ComfortFood_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 17,
+    "name": "Middle Eastern",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/MiddleEastern_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 18,
+    "name": "Pizza",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Pizza_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 19,
+    "name": "Turkish Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Turkish_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 20,
+    "name": "Korean Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Korean_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 21,
+    "name": "Deli",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Deli_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 22,
+    "name": "Brazilian Food",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Brazilian_CuisineCarousel@2x.png"
+    },
+    {
+    "id": 23,
+    "name": "German Food",
+    "icon": "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+    },
+    {
+    "id": 24,
+    "name": "Desserts",
+    "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Dessert_CuisineCarousel@2x.png"
+    }
+]
