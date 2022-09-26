@@ -1,5 +1,5 @@
 [
-    {
+    [{
     "id": 1,
     "name": "Fast Food",
     "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/FastFood_CuisineCarousel@2x.png"
@@ -58,8 +58,8 @@
     "id": 12,
     "name": "Taiwanese Food",
     "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Taiwanese_CuisineCarousel@2x.png"
-    },
-    {
+    }],
+    [{
     "id": 13,
     "name": "Alcohol",
     "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Alcohol_CuisineCarousel@2x.png"
@@ -118,5 +118,5 @@
     "id": 24,
     "name": "Desserts",
     "icon": "https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Dessert_CuisineCarousel@2x.png"
-    }
-]
+    }]
+] 

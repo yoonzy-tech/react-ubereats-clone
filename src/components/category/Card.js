@@ -1,7 +1,7 @@
 import React from "react";
-import "./Category.css"
+import "./CategoryCard.css"
 
-const Category = ( {category} ) => {
+const CategoryCard = ( {category} ) => {
     
     return (
         <div className="category-card">
@@ -11,4 +11,4 @@ const Category = ( {category} ) => {
     )
 };
 
-export default Category;
+export default CategoryCard;

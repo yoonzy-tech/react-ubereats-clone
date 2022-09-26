@@ -1,13 +1,11 @@
 import React from "react";
-import "./Category.css";
-// import { ArrowLeft, ArrowRight } from "react-feather";
-// import Slider from "./Slider";
+import "./category/CategoryCard.css";
+import Slider from "./category/Slider";
 
 const Body = () => {
-
     return (
          <div className="Body">
-            
+            <Slider />
     
         </div>
     )

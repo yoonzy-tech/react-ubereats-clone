@@ -1,5 +1,5 @@
 # Taiwan UberEats Website Clone
-This project is a clone of [this website](https://www.ubereats.com/tw-en/city/taipei-nwt) from UberEats.
+This project is a clone of [this website](https://www.ubereats.com/tw-en/city/taipei-nwt){:target="_blank" rel="noopener"} from UberEats.
 
 ## Skills Used
 

@@ -7,14 +7,19 @@
     font-family: 'Poppins', 'Open Sans', sans-serif;
 }
 
-.Slider {
+.Footer {
     margin: 0 40px;
 }
 
-.cat-page {
-    display:inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* border: 1px solid red; */
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 8px;
 }
+
+p {
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-weight: lighter;
+}
+
