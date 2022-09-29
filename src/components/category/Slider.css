@@ -42,6 +42,7 @@
     font-weight: 500;
     color: black;
     margin-right: 40px;
+
     font-size: 15px;
 }
 
@@ -83,15 +84,22 @@
 
 /* Category Page Container */
 
+.cat-page {
+    /* border: 1px green solid; */
+    scroll-snap-align: center;
+}
+
 .cat-pages {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 100%;
-    gap: 1rem;
+    gap: 1.5rem;
 
     overflow-x: scroll;
     overscroll-behavior-inline: contain;
     scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    /* border: 1px solid red; */
 }
 
 .cat-pages::-webkit-scrollbar {
@@ -116,3 +124,4 @@
     margin: 40px 0;
     border: none;
 }
+

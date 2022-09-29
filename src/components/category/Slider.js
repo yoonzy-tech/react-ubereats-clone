@@ -10,45 +10,36 @@ const Slider = ( ) => {
     // Set pages in index to access
     const [scrollX, setScrollX] = useState(0);
     const [scrollEnd, setScrollEnd] = useState(false);
-    
+    // const [index, setIndex] = useState(0);
 
     const scrl = useRef(null);
     
     const slide = (shift) => {
         scrl.current.scrollLeft += shift;
+        // scrl.scroller.scrollBy({left: scrl.})
         setScrollX(scrollX + shift); // Updates the latest scrolled postion
         if (
-            Math.floor(scrl.current.scrollWidth - scrl.current.scrollLeft) <= 
-            scrl.current.offsetWidth
+            Math.floor(scrl.current.scrollWidth - scrl.current.scrollLeft) <= scrl.current.offsetWidth
         ) {
             setScrollEnd(true);
           } else {
             setScrollEnd(false);
         }
     };
-    console.log(scrl.current.scrollWidth);
-    // console.log(scrl.current.scrollLeft);
-    console.log(scrl.current.offsetWidth);
-    console.log(scrollX);
     
     const scrollCheck = () => {
         setScrollX(scrl.current.scrollLeft);
         if (
-            Math.floor(scrl.current.scrollWidth - scrl.current.scrollLeft) <= 
-            scrl.current.offsetWidth
+            Math.floor(scrl.current.scrollWidth - scrl.current.scrollLeft) <= scrl.current.offsetWidth
         ) {
           setScrollEnd(true);
         } else {
           setScrollEnd(false);
         }
     };
-
-    console.log(scrollEnd);
     
-
-    // useEffect();
-    
-
+    // const slideLength = parseInt(scrl.scrollWidth) / CategoryData.length;
+    // console.log(scrl.current.scrollWidth);
     return (
         <div className="Slider">
             <div className='Category'>
@@ -61,12 +52,9 @@ const Slider = ( ) => {
                         
                        
                             <button
-                                className={scrollX === 0 ?"slider-button-disabled" : "slider-button"}
-                                
-                                onClick={ ((()=>{ 
-                                slide(-scrl.current.scrollWidth);
-                            }))}>
-                            
+                                className={scrollX <= 0 ?"slider-button-disabled" : "slider-button"}
+                                onClick={()=> 
+                                slide(-scrl.current.clientWidth)}>
                                 <ArrowLeft size={20} />
                             </button>
     
@@ -77,9 +65,9 @@ const Slider = ( ) => {
                         
                             <button 
                                 className={scrollEnd ? "slider-button-disabled" : "slider-button"} 
-                                onClick={((()=>{ 
-                                slide(+scrl.current.scrollWidth);
-                            }))}>
+                                onClick={()=> 
+                                slide(+scrl.current.clientWidth)
+                            }>
                                 <ArrowRight size={20} />
                             </button>
                         
@@ -88,16 +76,15 @@ const Slider = ( ) => {
                 </div>
                  {/* Slider */}
                 
-                <div ref={scrl} onScoll={scrollCheck} className="cat-pages">
+                <div ref={scrl} onScroll={scrollCheck}className="cat-pages">
                     {CategoryData.map((catItem, i) => (
-                        <div className="cat-page"
-                        key={i} 
-                        >
+                        <div className="cat-page">
                             <div className="cat-container">
                             { catItem.map((category)=> (
                                 <CategoryCard category={category}/>
                             ))}
                             </div>
+                            
                         </div>
                     ))}
                 </div>
