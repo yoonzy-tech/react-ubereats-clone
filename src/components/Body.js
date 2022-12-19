@@ -1,5 +1,5 @@
 import React from "react";
-import "./category/CategoryCard.css";
+import "./category/Card.css";
 import Slider from "./category/Slider";
 
 const Body = () => {

@@ -7,5 +7,8 @@ In the project, I used:
 
 * Visual Studio Code
 * HTML
-* CSS
+* CSS (flexbox, grid)
 * JavaScript
+* JSON file for the restaurant data
+* React (useState, useEffect)
+

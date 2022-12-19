@@ -7,6 +7,10 @@
     font-family: 'Poppins', 'Open Sans', sans-serif;
 }
 
+p {
+    color: #6B6B6B
+}
+
 .RestaurantSlider {
     margin: 0 40px;
 }
@@ -22,4 +26,14 @@ hr {
     height: 1px;
     margin: 30px 0;
     border: none;
+}
+
+.shop-card-container {
+    /* display: grid;
+    grid-template-columns: repeat(, 50%);
+    grid-template-rows: repeat(2, )min-content 128px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
