@@ -1,0 +1,28 @@
+/* Restaurant Card */
+.shop-card {
+    width: 50%;
+    /* border: 1px solid black; */
+    margin: 15px 0px;
+    height: 128px;
+    display: flex;
+    flex-direction: row;
+
+}
+.shop-img {
+    width: 30%;
+}
+
+.shop-img img {
+    max-height: 128px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.shop-info {
+    width: 70%;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+

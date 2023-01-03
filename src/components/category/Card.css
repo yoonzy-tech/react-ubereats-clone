@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+}
+
+/* Category Cards */
+
+.category-card {
+    /* border: 1px solid black; */
+    background-color: #F6F0EA;
+    flex: 0 0 15%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    height: 80px;
+    width: 204px;
+    margin-top: 24px;
+    
+}
+
+.category-card:hover {
+    cursor: pointer;
+}
+
+.category-card p {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 15px 12px;
+}
+

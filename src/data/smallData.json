@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "name": "Los Tacos No. 1",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-s/19/f1/0d/db/los-tacos-no-1.jpg",
+      "location": "229 W 43rd St",
+      "Rating": 4,
+      "ETA": 35,
+      "tags": [
+        "Quick Bites",
+        "Mexican",
+        "Latin"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Hatsuhana Sushi Restaurant",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-s/0f/95/f7/2d/tuna-roll-tekka-maki.jpg",
+      "location": "Madison & 5th Avenue",
+      "Rating": 4.5,
+      "ETA": 45,
+      "tags": [
+        "Japanese",
+        "Sushi",
+        "Asian"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Liberty Bagels Midtown",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-o/1b/4d/ef/fc/rainbow-bagel-with-vegan.jpg",
+      "location": "260 W 35th St",
+      "Rating": 5,
+      "ETA": 30,
+      "tags": [
+        "Bakeries",
+        "American",
+        "Fast food"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bleecker Street Pizza",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-s/1a/48/cb/9d/img-20191208-144633-largejpg.jpg",
+      "location": "69 7th Ave S at Bleecker Street Pizza",
+      "Rating": 4.2,
+      "ETA": 30,
+      "tags": [
+        "Italian",
+        "Pizza",
+        "Fast food"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sea Fire Grill",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-f/04/72/c7/f0/sea-fire-grill.jpg",
+      "location": "158 E 48th St Between 3rd and Lexington avenue",
+      "Rating": 4.4,
+      "ETA": 25,
+      "tags": [
+        "American",
+        "Bar",
+        "Seafood"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Boucherie Union Square",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-s/04/a9/1a/6e/jungsik.jpg",
+      "location": "225 Park Avenue South",
+      "Rating": 4,
+      "ETA": 25,
+      "tags": [
+        "French",
+        "Steakhouse",
+        "Gluten Free Options"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Jungsik",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-s/04/a9/1a/6e/jungsik.jpg",
+      "location": "2 Harrison St",
+      "Rating": 4.3,
+      "ETA": 40,
+      "tags": [
+        "Asian",
+        "Korean",
+        "Gluten Free Options"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Piccola Cucina Estiatorio",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-f/16/9f/fd/75/fish-market.jpg",
+      "location": "75 Thompson St",
+      "Rating": 3.9,
+      "ETA": 35,
+      "tags": [
+        "Italian",
+        "Seafood",
+        "Mediterranean"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "5 Napkin Burger",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-s/1e/37/eb/b2/5-napkin-burger.jpg",
+      "location": "630 9th Ave",
+      "Rating": 4.6,
+      "ETA": 20,
+      "tags": [
+        "American",
+        "Contemporary",
+        "Vegetarian Friendly"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Westway Diner",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-s/19/d5/54/e8/red-white-and-blue-waffles.jpg",
+      "location": "614 9th Ave",
+      "Rating": 4.3,
+      "ETA": 30,
+      "tags": [
+        "American",
+        "Vegetarian Friendly",
+        "Vegan Options"
+      ]
+    }
+  ]

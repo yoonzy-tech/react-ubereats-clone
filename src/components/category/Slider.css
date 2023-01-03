@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+}
+
+.Body {
+    margin: 0 40px;
+    /* border: 1px solid green; */
+}
+
+.Category {
+    text-align: left;
+}
+
+.Category h2 {
+    font-size: 35px;
+    font-weight: 700;
+    word-spacing: -2px;
+    display: inline-block;
+}
+
+/* Category Heading + Slider Arrow Buttons */
+
+.cat-head {
+    display: flex;
+}
+
+.cat-button {
+    /* border: 2px solid black; */
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+#view-all {
+    text-decoration: underline;
+    font-weight: 500;
+    color: black;
+    margin-right: 40px;
+
+    font-size: 15px;
+}
+
+.space {
+    width: 4px;
+}
+
+.slider-button {
+    all: unset;
+    background-color: #F6F6F6;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-button:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+
+.slider-button-disabled {
+    all: unset;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    color: #AFAFAF;
+}
+
+.slider-button-disabled:hover {
+    cursor: not-allowed;
+}
+
+/* Category Page Container */
+
+.cat-page {
+    /* border: 1px green solid; */
+    scroll-snap-align: center;
+}
+
+.cat-pages {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    gap: 1.5rem;
+
+    overflow-x: scroll;
+    overscroll-behavior-inline: contain;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    /* border: 1px solid red; */
+}
+
+.cat-pages::-webkit-scrollbar {
+    background: transparent; 
+    /* make scrollbar transparent */
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+  }
+
+.cat-container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 0 0 15%;
+}
+
+.Body hr {
+    background-color: #E2E2E2;
+    height: 1px;
+    margin: 40px 0;
+    border: none;
+}
+
