@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-ubereats-clone/static/css/main.6ddcadd8.css",
+    "main.js": "/react-ubereats-clone/static/js/main.23bb8b16.js",
+    "static/media/google-app-store.png": "/react-ubereats-clone/static/media/google-app-store.ec25e81f789173772ba7.png",
+    "index.html": "/react-ubereats-clone/index.html",
+    "main.6ddcadd8.css.map": "/react-ubereats-clone/static/css/main.6ddcadd8.css.map",
+    "main.23bb8b16.js.map": "/react-ubereats-clone/static/js/main.23bb8b16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ddcadd8.css",
+    "static/js/main.23bb8b16.js"
+  ]
+}
